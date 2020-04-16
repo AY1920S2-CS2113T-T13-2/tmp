@@ -810,12 +810,12 @@ Since the <b>delete</b> commands are quite similar to the <b>list</b> commands, 
 <br><br>
 Each of the <b>delete</b> commands extends from the <i>abstract</i> <code>DeleteCommand</code> class. The <code>DeleteCommand</code> class has an <i>abstract</i> method, <code>executeInitialDelete()</code>, and each of the <b>delete</b> commands must implement this method. The role of <code>executeInitialDelete()</code> is to prepare the necessary prompt to show the user, depending on the number of filtered matches <i>(See <a href="#overview-2">above</a>)</i>.
 <br><br>
-<div>
+</div>
 ![prompt command class diagram](images/dg_prompt_class.png)      
 <span style="color: green"><small><i>Figure <b>Prompt Command Class Diagram</b></i></small></span>   
-
 <br> 
 Two <b>prompt</b> commands are involved in the deletion process:<br>  
+
 <ol>  
 <li><code>ListNumberPrompt</code> manages the event after the user has input the <i>list numbers</i> of the <i>directories</i> to delete when there are <b>multiple</b> matches.</li>  
 <li><code>DeleteConfirmationPrompt</code> manages the event after the user has responded to the confirmation prompt to delete the <i>directories</i></li>  

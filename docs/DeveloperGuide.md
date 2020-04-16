@@ -207,7 +207,7 @@ Another design goal we desire is to implement measures to allow the users to be 
 
 <span style="color: green"><small><i>Figure <b>Nuke Architecture</b></i></small></span>   
  <br>
- 
+
 The **Architecture Diagram** given above explains the high-level design of the application. Give below is a quick overview of each component.
 
 **`Main`** has only one class called **Nuke**. It is responsible for,
@@ -389,10 +389,10 @@ The <b>Directory Manager</b> classes also contain very similar methods to carry 
 <br>
 The <b>Directories</b> and <b>Directory Managers</b> together make up the <a href="#implementation"><b>Model component</b></a> of the <b>Nuke</b> application.  
 </div>   
-  
+
 [Back To Top](#table-of-contents)    
 <br>   
-  
+
 #### **Design Considerations**     
 <b>Structure Decision</b>    
 - <b>Alternative 1</b>: No <b>Directory Tree</b> structure; have <b>one</b> Task List</b> which stores all the user's <i>tasks</i>       
@@ -439,7 +439,7 @@ The <code>DirectoryTraverser</code> class is a static class which has several pu
 ![directory traverser traverse down](images/dg_traverse_down.png)    
 <span style="color: green"><small><i>Figure <b>Directory Traverser Traverse Down</b></i></small></span>   
  <br>  
- 
+
 ![directory traverser traverse up](images/dg_traverse_up.png)    
 <span style="color: green"><small><i>Figure <b>Directory Traverser Traverse Up</b></i></small></span>   
  <br>  
@@ -491,7 +491,7 @@ To support the attributes matching feature, <code>DirectoryTraverser</code> has 
 As of the current implementation, the above methods are sufficient for the attributes matching property.
 </div>
 <br>   
-  
+
 [Back To Top](#table-of-contents)    
 <br>   
 
@@ -641,9 +641,8 @@ The `AddCategoryCommand` and `AddTaskCommand` will first call the `getParentDire
 
 Below are the class-diagram for the involved classes:
 
-```
-to-do: add the class-diagram
-```
+![Add Category Command Class Diagram](images/Add_Category_Command_Class_Diagram.png)   
+<span style="color: green"><small><i>Figure <b>Add Category Command Class Diagram</b></i></small></span>
 
 #### **Example Usage**
 
@@ -811,7 +810,7 @@ Since the <b>delete</b> commands are quite similar to the <b>list</b> commands, 
 <br><br>
 Each of the <b>delete</b> commands extends from the <i>abstract</i> <code>DeleteCommand</code> class. The <code>DeleteCommand</code> class has an <i>abstract</i> method, <code>executeInitialDelete()</code>, and each of the <b>delete</b> commands must implement this method. The role of <code>executeInitialDelete()</code> is to prepare the necessary prompt to show the user, depending on the number of filtered matches <i>(See <a href="#overview-2">above</a>)</i>.
 <br><br>
-     
+<div>
 ![prompt command class diagram](images/dg_prompt_class.png)      
 <span style="color: green"><small><i>Figure <b>Prompt Command Class Diagram</b></i></small></span>   
 
@@ -829,7 +828,6 @@ corresponding <code>DeleteCommand</code> and <code>DeleteConfirmationPrompt</cod
 </div>   
 <br>
 The deletion process can thus be broken down into <b>3</b> stages. We provide for you the relevant <i>sequence diagrams</i> to help you to see how each stage works in our current implementation of the <b>delete</b> command.
-</div>  
 
 
 <div>
@@ -897,9 +895,9 @@ Since there are <b>multiple</b> matches,  the application will first request for
 After the <code>Parser</code> has parsed the list numbers, the <code>ListNumberPrompt</code> object is constructed. <code>ListNumberPrompt</code> will prepare the prompt for the delete confirmation, and then calls its <code>executePromptConfirmation(filteredList, MODULE)</code> method.  
 </div>   
 
-This is the <i>sequence diagram</i> for <b>stage</b> <big><big><big style="color: green">&#10103;</big></big></big>:<br>   
+This is the <i>sequence diagram</i> for <b>stage</b> <big><big><big style="color: green">&#10103;</big></big></big>:<br>
 
-![prompt command sequence diagram](images/dg_prompt_seq.png)  
+![prompt command sequence diagram](images/dg_prompt_seq.png) 
  <span style="color: green"><small><i>Figure <b>Delete Command Sequence Diagram 2</b></i></small></span>   
 
 <div>
@@ -1223,7 +1221,7 @@ The storage operations, such as saving and loading of data, are implemented thro
 <br><br>
 In our current implementation, the data is saved into a <code>save.txt</code> file in the user's device. 
 </div>  
-  
+
 #### **Implementation**  
 ##### **Encoding and Decoding**  
 ![storage manager class diagram](images/dg_storage_class.png)
@@ -1245,7 +1243,7 @@ The decoded <b>Directory Tree</b> is then loaded into the application by the <co
 <br><br>
 The <code>StorageManager</code>, <code>Encoder</code> and <code>Decoder</code> classes make up the <b>Storage Component</b> of <b>Nuke</b>.
 </div>   
-  
+
 ##### **Saving**  
 <div>
 In our current implementation of <b>Nuke</b>, the <b>Directory Tree</b> is saved every time a <i>change</i> is made. Change here refers to operations that changes the contents in the <b>Directory Tree</b> , such as successful adding, deleting and editing of the <i>directories</i>. 
@@ -1285,7 +1283,7 @@ private void runCommandLoopUntilExitCommand() {
 	... ...
 }
 ```
-   
+
 <div class="alert alert-info">  
 <i class="fa fa-info"></i> <b>Info</b> <br>   
 Notice that the <code>ScreenShotManager#saveScreenShot()</code> is also called after the <code>StorageManager</code> saves the <b>Directory Tree</b>. The <code>ScreenShotManager</code> class is responsible for performing <b>undo</b> and <b>redo</b> operations in the application. 
@@ -1542,7 +1540,7 @@ All the List Commands below are assumed to be executed at the root directory.<br
 <br>  
 
 ![list file](images/dg_lsf.png)
-   
+
 5. List tags
 
    1. Test case: `lsg -m cs2113t -c Assignment -t assignment2`

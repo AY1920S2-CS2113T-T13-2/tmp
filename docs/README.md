@@ -8,6 +8,6 @@ What are you waiting for? Give <b>Nuke</b> a shot, and you will see how amazing 
 <br>
    
 ### **Useful links**
-* [User Guide](https://ay1920s2-cs2113t-t13-2.github.io/tp/UserGuide.html)
-* [Developer Guide](https://ay1920s2-cs2113t-t13-2.github.io/tp/DeveloperGuide.html)
+* [User Guide](https://ay1920s2-cs2113t-t13-2.github.io/tmp/UserGuide.html)
+* [Developer Guide](https://ay1920s2-cs2113t-t13-2.github.io/tmp/DeveloperGuide.html)
 * [About Us](AboutUs.md)

@@ -364,8 +364,7 @@ addm cs2113t
 
 - `category name` -- The _name_ of the   _category_  
 - `module code` -- The _module code_ of the _module_ to contain the _category_ to be added  
-- `priority` -- A number indicating the  _priority_ of the _category_ <i>(optional)</i>    
-  
+- `priority` -- An integer indicating the  _priority_ of the _category_ <i>(optional)</i>    
 <div clas s="alert alert-warning">  
 <i class="fa fa-exclamation"></i> <b>Note</b> <br>   
 The <code>category name</code> <b>cannot </b> exceed <b>15</b> characters. &#128534; <br>  The <code>priority</code> that you give must be a number between 0 and 20 inclusive. The bigger the number, the more important the category. If the <code>priority</code> is not given, then it will be set to <b>0</b>.    
@@ -399,7 +398,7 @@ addc Project -m cs2113t -p 3
 - `module code` -- The _module code_ of the _module_ to contain the _category_ to be added    
 - `category name` -- The _name_ of the   _category_    
 - `deadline` -- The _deadline_ of the _task_     
-- `priority` -- A number indicating the  _priority_ of the _category_     
+- `priority` -- An integer indicating the  _priority_ of the _category_     
 
 <div class="alert alert-warning">  
 <i class="fa fa-exclamation"></i> <b>Note</b> <br>   
@@ -930,7 +929,7 @@ delf diag -a
 `delg` deletes a _tag_ from your _task_'s **Tag List**. The **Tag List** contains all your added _tags_ to the _task_. (and can be viewed via the List Tag command).   
 
 ##### **Format**       
-`delg [ <tag keywrod> -m <module keyword> -c <category keyword> -t <task keyword> ]`   
+`delg [ <tag keyword> -m <module keyword> -c <category keyword> -t <task keyword> ]`   
 
 - `tag keyword` -- The <i>keyword</i> to filter the <i>tags'</i> <i>name</i> by         
 - `module keyword` -- The <i>keyword</i> to filter the <i>modules'</i> <i>code</i> by       
@@ -1088,8 +1087,9 @@ edc Lab -m cs2113t -c Project -p 8
 You need to enter at least one of <code>new task description</code>, <code>new deadline</code> and <code>new priority</code>. If all are omitted, an error message would be shown! &#128555; <br>  <br>  
 The <code>new task description</code> <b>cannot </b> exceed <b>25</b> characters. <br>    
 As with all <code>deadline</code> attribute, the <code>new deadline</code> must follow <b>Nuke</b>'s accepted <b><a href="#date-time-formats">Date Time Formats</a></b>. If the <i>date</i> is omitted, <b>Nuke</b> will set it to the current date on your device. If <i>time</i> is omitted, <b>Nuke</b> will set it to be <b>11:59PM</b>. <br><br>  
-In addition, the <code>new priority</code> should also be between 0 and 20 inclusive.  
+In addition, the <code>new priority</code> should also be an integer between 0 and 20 inclusive.  
 </div>  
+
 
 ##### **Example Usage**   
 ```  
@@ -1209,7 +1209,6 @@ done do lab 4 -m cs2106 -c Lab
 `cd ..` to traverse up     
 
 - `directory name` -- The name of the next _directory_    
-  
 <div class="alert alert-warning">  
 <i class="fa fa-exclamation"></i> <b>Note</b> <br>   
 There will <b>not</b> be any message shown for successful traversal &#128528;. Instead, you will be able to see a change in the current directory path as shown in the positive traversing example below. <br>  
@@ -1221,7 +1220,7 @@ However, attempting to traverse ahead of the <b>Root</b> Directory (first direct
 cd cs2113t  
 ```
 ```  
-cd  
+cd ..
 ```
 
 ##### **Expected Outcome**   
@@ -1260,7 +1259,7 @@ To open a single <i>file</i>, enter its <code>file name</code>. <bR>Otherwise, i
 open lab_4 -m cs2106 -c Lab -t do lab 4   
 ```
 ```  
-open lab 4  
+open lab_4  
 ```
 
 ##### **Expected Outcome**   
@@ -1478,7 +1477,7 @@ A simple summary of the various commands are shown below:
 | [`addm`](#a-add-a-module-into-your-module-list) | Adds a new <i>module</i><br><b>Format</b>: `addm <module code>`<br><b>Example</b>: `addm cs2113t` |
 | [`addc`](#b-add-a-category-into-your-category-list)| Adds a new <i>category</i><br><b>Format</b>: `addc <category name> -m <module code> [ -p <priority> ]`<br><b>Example</b>: `addc Project -m cs2113t -p 3` |
 | [`addt`](#c-add-a-task-into-your-task-list)     | Adds a new <i>task</i><br><b>Format</b>: `addt <task description> -m <module code> -c <category name>`<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `[ -d <deadline> -p <priority> ]`<br><b>Example</b>: `addt urgent assignment -m cs2113t -c Assignment -d tmr 2359 -p 15` |
-| [`addf`](#d-add-a-file-into-your-file-list)   | Adds a new <i>file</i><br><b>Format</b>: `addf <file name> -m <module code> -c <category name> -t <task description>`<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `-f <file path>`<br><b>Example</b>: `addm cs2113t` |
+| [`addf`](#d-add-a-file-into-your-file-list)   | Adds a new <i>file</i><br><b>Format</b>: `addf <file name> -m <module code> -c <category name> -t <task description>`<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `-f <file path>`<br><b>Example</b>: `addf assignment 1 -f c:\users\null\cs3230\assignment\assigment1.pdf` |
 | [`addg`](#e-add-a-tag-to-your-task)     | Adds a new <i>tag</i><br><b>Format</b>: `addg <tag name> -m <module code> -c <category name> -t <task description>` <br><b>Example</b>: `addg urgent -m CS2113t -c Lab -t tp` |
 | [`ls`](#2-list)| Shows the <i>child directories</i>; include <i>child directory name</i> to show it <i>child directories</i> instead<br><b>Format</b>: `ls [ <child directory name> ]`<br><b>Example</b>: `ls` &nbsp; &nbsp; `ls cs2113t` |
 | [`lsm`](#a-list-your-modules)     | Shows filtered <i>modules</i><br><b>Format</b>: `lsm [ <module keyword> -e -a ]`<br><b>Example</b>: `lsm cs` |
@@ -1489,7 +1488,7 @@ A simple summary of the various commands are shown below:
 | [`lsf`](#f-list-your-files)   | Shows filtered <i>files</i><br><b>Format</b>: `lsf [ <file keyword> -m <module keyword> -c <category keyword>` <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `-t <task keyword> -e -a ]` <br><b>Example</b>: `lsf -m cs -t tp -a` |
 | [`lsg`](#g-list-your-tasks-tags)     | Shows filtered <i>tags</i><br><b>Format</b>: `lsg [ <tag keyword> -m <module keyword> -c <category keyword>` <br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `-t <task keyword> -e -a ]` <br/><b>Example</b>: `lsg -m cs2113t -c Assignment -t tp -a` |
 | [`rm`](#3-delete)| Deletes a <i>child directory</i><br><b>Format</b>: `rm <child directory name>`<br><b>Example</b>: `rm cs2102` |
-| [`delm`](#a-delete-modules-from-your-module-lists) | Deletes filtered <i>modules</i><br><b>Format</b>: `delm [ <module keyword> -e -a ]`<br><b>Example</b>: `lsm cs` |
+| [`delm`](#a-delete-modules-from-your-module-lists) | Deletes filtered <i>modules</i><br><b>Format</b>: `delm [ <module keyword> -e -a ]`<br><b>Example</b>: `delm cs2102` |
 | [`delc`](#b-delete-categories-from-your-category-lists) | Deletes filtered <i>categories</i><br><b>Format</b>: `delc [ <category keyword> -m <module code> -e -a ]`<br><b>Example</b>: `delc lec -a` |
 | [`delt`](#c-delete-tasks-from-your-task-lists) | Deletes filtered <i>tasks</i><br><b>Format</b>: `delt [ <task keyword> -m <module keyword> -c <category keyword> -e -a ]`<br><b>Example</b>: `delt assignment -c Assign` |
 | [`delf`](#d-delete-files-from-your-file-lists) | Deletes filtered <i>files</i><br><b>Format</b>: `delf [ <file keyword> -m <module keyword> -c <category keyword>` <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `-t <task keyword> -e -a ]` <br><b>Example</b>: `delf -m cs2113 -t tp` |

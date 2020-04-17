@@ -127,45 +127,39 @@ What are you waiting for? Give <b>Nuke</b> a shot, and you will see how amazing 
 
 ## **Setting Up**  
 
-#### **1.1. Prerequisites**
+<div>
+<big><big><big style="color=green">&#10102;</big></big></big> Ensure that you have <b>Java 11</b> or higher installed in your computer.
+<br>
+<big><big><big style="color=green">&#10103;</big></big></big> Download the latest <b>Nuke</b> jar file from <a href="https://github.com/AY1920S2-CS2113T-T13-2/tp/releases">here</a>.
+<br>
+<big><big><big style="color=green">&#10104;</big></big></big> Copy the file to the folder you want to use as the home folder for your <b>Nuke</b> application. You may rename the file if you want.
+<br>
+<big><big><big style="color=green">&#10105;</big></big></big> Run <b>Command Prompt</b> and move into the folder where you want placed the <b>Nuke</b> file. Enter <code>java -jar &lt;file name&gt;.jar</code> to launch the application, where <code>&lt;file name&gt;</code> is the name of the file.
+<br>
+<big><big><big style="color=green">&#10106;</big></big></big> You will see the following welcome message if the application starts successfully.
+</div>
 
-1. JDK 11
-2. IntelliJ IDE
+![welcome message](images/ug_welcome_message)
 
-#### **1.2. Setting up the project**
-1.  Fork [this repository](https://github.com/AY1920S2-CS2113T-T13-2/tp), and clone the fork to your computer
-
-2.  Open the IntelliJ IDE. If you are not in the welcome screen, click `File` &gt; `Close Project` to close the existing project.
-
-3.  Set up the correct JDK version for Gradle
-
-    1.  Click `Configure` &gt; `Project Defaults` &gt; `Project Structure`
-
-    2.  Click `New...` and find the directory of the JDK
-
-4.  Click on `Import Project`
-
-5.  Locate and select the `build.gradle` file, then click `OK`
-
-6.  Click `Open as Project`
-
-7.  Click `OK` to use the default settings provided
-
-#### **1.3. Verifying the Setup**
-1.  In an IntelliJ terminal, run `gradlew build`
-
-2.  Navigate to the folder `build` &gt; `libs` by executing  `cd build/libs/` and then run: `java -jar nuke-2.0.jar`
-
-    1.  To use **Nuke**, type a valid command into the terminal and press the enter key to run the command. 
-        e.g. Typing `help` and pressing the enter key will show the available commands and their respective command usage help messages.
-
-    2.  Some example commands you can try to get familiar with **Nuke**:
-
-        -   `help`: Lists the commands that **Nuke** supports.
--   `addm cs2113t`: Adds a module with module code cs2113t, **Nuke** will recognize it as the module  *Software Engineering & Object-Oriented Programming* and add it to your Module List.
-        -   `addt assignment2 -m cs2113t -c Assignment -d tmr 23:59 -p 20` : Adds a task named `assignment2` which belongs to *module* `cs2113t` and *category* `Assignment` with a *deadline* `tomorrow 23:59` and *priority* of `20`
--   `bye`: Exits **Nuke**.
-
+<br>
+<div>
+<big><big><big style="color=green">&#10107;</big></big></big> Enter your command and press <kbd>Enter</kbd> to execute it. 
+<br>
+<div class="alert alert-info">  
+<i class="fa fa-info"></i> <b>Tip</b> <br>   
+Entering <code>help</code> and pressing <kbd>Enter</kbd> will show you helpful guides to all of <b>Nuke</b>'s commands.    
+</div>  
+<br>
+<big><big><big style="color=green">&#10108;</big></big></big> Some example commands you may want to try:<br>
+<ul>
+<li><code>addm cs2113t</code>: Adds a <i>module</i> with <i>module code</i> <b>CS2113T</b> into <b>Nuke</b></li>
+<li><code>addt read notes -m cs2113t -c Lecture</code>: Adds a <i>task</i> <b>read notes</b> to the <b>Lecture</b> <i>category</i> of the <b>CS2113T</b> <i>module</i></li>
+<li><code>lst</code>: Lists your added <i>tasks</i></li>
+<li><code>bye</code>: Exits the <b>Nuke</b> application</li>
+</ul>
+<br>
+<big><big><big style="color=green">&#10109;</big></big></big> Refer to the <a href="#features">Features</a> section for more information about each command.
+</div>
 
 [Back To Top](#table-of-contents)  
 

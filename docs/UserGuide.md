@@ -40,7 +40,7 @@ div {
 
 </style>
 
-b<br><br><br><br><br><br><br><br><br>
+d<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -1382,7 +1382,7 @@ redo
 
 <hr>  
 
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 ## **Miscellaneous Information**   
 ### **Help**   
@@ -1416,7 +1416,7 @@ Instances when you may need to enter a *date time* will be when adding a _deadli
       
 Here are the following *date time* formats:    
   
-<br>  
+<br><br><br>  
   
 #### **Date Formats**   
 There are **two** types *date* formats allowed.    
@@ -1496,6 +1496,8 @@ The <i>time specifier</i> is <u>optional</u> and if omitted, is set to `on`.
 <br>  
 
 <hr>  
+
+<br><br><br><br><br><br><br><br>
 
 ## **Command Summary**   
 A simple summary of the various commands are shown below:  

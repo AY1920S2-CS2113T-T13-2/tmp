@@ -40,6 +40,9 @@ div {
 
 </style>
 
+<div>
+<h1><b>Nuke User Guide</b>
+</div>
 # **Nuke User Guide** <small>v2.1</small>   
 By: `CS2113T-T13-2` Since: `Feb 2020` <small>    
 [Go to Webpage](https://ay1920s2-cs2113t-t13-2.github.io/tmp/UserGuide.html)</small>     
@@ -128,36 +131,36 @@ What are you waiting for? Give <b>Nuke</b> a shot, and you will see how amazing 
 ## **Setting Up**  
 
 <div>
-<big><big><big style="color=green">&#10102;</big></big></big> Ensure that you have <b>Java 11</b> or higher installed in your computer.
+<big><big><big style="color: green">&#10102;</big></big></big> Ensure that you have <b>Java 11</b> or higher installed in your computer.
 <br>
-<big><big><big style="color=green">&#10103;</big></big></big> Download the latest <b>Nuke</b> jar file from <a href="https://github.com/AY1920S2-CS2113T-T13-2/tp/releases">here</a>.
+<big><big><big style="color: green">&#10103;</big></big></big> Download the latest <b>Nuke</b> jar file from <a href="https://github.com/AY1920S2-CS2113T-T13-2/tp/releases">here</a>.
 <br>
-<big><big><big style="color=green">&#10104;</big></big></big> Copy the file to the folder you want to use as the home folder for your <b>Nuke</b> application. <br>
+<big><big><big style="color: green">&#10104;</big></big></big> Copy the file to the folder you want to use as the home folder for your <b>Nuke</b> application. <br>
 &nbsp; &nbsp; &nbsp; &nbsp; You may rename the file if you want.
 <br>
-<big><big><big style="color=green">&#10105;</big></big></big> Run <b>Command Prompt</b> and move into the folder where you want placed the <b>Nuke</b> file. <br>
+<big><big><big style="color: green">&#10105;</big></big></big> Run <b>Command Prompt</b> and move into the folder where you want placed the <b>Nuke</b> file. <br>
 &nbsp; &nbsp; &nbsp; &nbsp; Enter <code>java -jar &lt;file name&gt;.jar</code> to launch the application, where <code>&lt;file name&gt;</code> is the name of the file.
 <br>
-<big><big><big style="color=green">&#10106;</big></big></big> You will see the following welcome message if the application starts successfully.
+<big><big><big style="color: green">&#10106;</big></big></big> You will see the following welcome message if the application starts successfully.
 </div>
 
 ![welcome message](images/ug_welcome_message.PNG)
 
 <div>
-<big><big><big style="color=green">&#10107;</big></big></big> Enter your command and press <code>Enter</code> to execute it. 
+<big><big><big style="color: green">&#10107;</big></big></big> Enter your command and press <code>Enter</code> to execute it. 
 <br>
 <div class="alert alert-info">  
 <i class="fa fa-info"></i> <b>Tip</b> <br>   
 Entering <code>help</code> and pressing <code>Enter</code> will show you helpful guides to all of <b>Nuke</b>'s commands.    
 </div>  
-<big><big><big style="color=green">&#10108;</big></big></big> Some example commands you may want to try:<br>
+<big><big><big style="color: green">&#10108;</big></big></big> Some example commands you may want to try:<br>
 <ul>
 <li><code>addm cs2113t</code>: Adds a <i>module</i> with <i>module code</i> <b>CS2113T</b> into <b>Nuke</b></li>
 <li><code>addt read notes -m cs2113t -c Lecture</code>: Adds a <i>task</i> <b>read notes</b> to the <b>Lecture</b> <i>category</i> of the <b>CS2113T</b> <i>module</i></li>
 <li><code>lst</code>: Lists your added <i>tasks</i></li>
 <li><code>bye</code>: Exits the <b>Nuke</b> application</li>
 </ul>
-<big><big><big style="color=green">&#10109;</big></big></big> Refer to the <a href="#features">Features</a> section for more information about each command.
+<big><big><big style="color: green">&#10109;</big></big></big> Refer to the <a href="#features">Features</a> section for more information about each command.
 </div>
 
 [Back To Top](#table-of-contents)  

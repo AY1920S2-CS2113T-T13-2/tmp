@@ -40,7 +40,7 @@ div {
 
 </style>
 
-b<br><br><br><br><br><br><br><br><br>
+c<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -299,7 +299,7 @@ Specifically, each word in the name of your directory has to begin with a alpha-
 
 <hr>  
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br>
 
 ## **Features**  
 ### **1. Add** (Accomplished together by Hao Yun)

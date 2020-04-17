@@ -54,7 +54,7 @@ By: <code>CS2113T-T13-2</code> Since: <code>Feb 2020</code> <br>
 
 <hr>  
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## **Table of Contents** (Accomplished together by Hao Yun)
 <big style="color: green">**Introduction** [&#10149;](#introduction)  </big>     

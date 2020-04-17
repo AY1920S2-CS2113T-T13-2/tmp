@@ -40,7 +40,7 @@ div {
 
 </style>
 
-b<br><br><br><br><br><br><br><br><br>
+c<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -627,7 +627,7 @@ lst -c Assignment
 lst  
 ```
 
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 ##### **Expected Outcome**    
 ![image-20200401012942212](images/ug_lst.png)  
@@ -786,7 +786,7 @@ lsg -m cs2113t -c Assignment -t assignment1
 
 [Back To Top](#table-of-contents)  
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+<br><br><br><br><br><br><br><br><br><br>
 
 
 ### **3. Delete** (Accomplished together by Yang Chenglong)  
@@ -821,6 +821,8 @@ If there are <b>multiple</b> matches after filtering, you will receive a further
 Please do <b>not</b> delete the <i>directory</i> you are in, <i>or</i> any of your current <i>directory</i>'s <i>parent directories</i>. Doing so will result in an error message to be shown &#128543;.   
 </div>     
 [Back To Top](#table-of-contents)  
+
+
 
 #### **a. Delete Modules from your Module Lists**   
 

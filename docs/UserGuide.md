@@ -40,7 +40,7 @@ div {
 
 </style>
 
-a<br><br><br><br><br><br><br><br><br>
+b<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -462,6 +462,8 @@ The <code>file path</code> provided must exist. Otherwise, an error message will
 Also, the <code>file name</code> <b>cannot</b> exceed <b>30</b> characters. &#128566;  
 </div>  
 
+<br><br><br>
+
 <div class="alert alert-info">  
 <i class="fa fa-info"></i> <b>Info</b> <br>   
 The <code>file path</code> should be the <b>absolute</b> <i>path</i> of the <i>file</i>. For <b>Windows</b>, the <b>absolute</b> <i>path</i> will usually start as such: <code>C:\Users\...</code><br>  <br>  
@@ -525,7 +527,7 @@ addg urgent
 
 [Back To Top](#table-of-contents)  
 
-<br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 ### **2. List**   
 Lists filtered <i>modules</i>, <i>categories</i>, <i>tasks</i> or <i>files</i>. <br>    
@@ -561,6 +563,7 @@ For more information on how filtering is done, see <a href="#how-does-the-filter
 `lsm [ <module keyword> -e -a ]`     
 - `module keyword` -- The <i>keyword</i> to filter the <i>modules'</i> <i>code</i> by        
   
+<br><br><br>
 <div class="alert alert-info">  
 <i class="fa fa-info"></i> <b>Info</b> <br>   
 If the <code>module keyword</code> is provided, <code>lsm</code> will list out all <i>modules</i> with <i>module code</i> containing the  <code>module keyword</code>. Otherwise, it will show <b>all</b> your <i>modules</i>.  
@@ -593,6 +596,8 @@ lsc -m cs2113t
 ```  
 lsc  
 ```
+
+<br><br><br><br>
 
 ##### **Expected Outcome**    
 ![image-20200401012031973](images/ug_lsc.png)  

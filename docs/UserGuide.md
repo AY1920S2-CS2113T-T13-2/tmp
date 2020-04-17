@@ -40,7 +40,7 @@ div {
 
 </style>
 
-a<br><br><br><br><br><br><br><br><br>
+b<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -178,7 +178,7 @@ Entering <code>help</code> and pressing <code>Enter</code> will show you helpful
 
 <hr>  
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
 
 ## **General Usage**   
 This section will explain the fundamental structure of the **Nuke** application, and important guidelines to follow to ensure smooth usage of the application.    

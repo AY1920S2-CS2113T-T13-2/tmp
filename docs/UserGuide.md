@@ -100,7 +100,7 @@ By: `CS2113T-T13-2` Since: `Feb 2020` <small>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -- Time Specifier Formats [&#10149;](#time-specifier-formats)      
 <br>  <big style="color: green"> **Command Summary** [&#10149;](#command-summary) </big>     
 <br>  <big style="color: green"> **FAQ** [&#10149;](#faq) </big>     
-&nbsp; &nbsp; &nbsp; &nbsp; &#8226; **Can I not enter the Full Path** [&#10149;](#can-i-not-enter-the-full-path)    
+&nbsp; &nbsp; &nbsp; &nbsp; &#8226; **Can I not enter the Full Path?** [&#10149;](#can-i-not-enter-the-full-path)    
 &nbsp; &nbsp; &nbsp; &nbsp; &#8226; **How does the Filtering Process works?** [&#10149;](#how-does-the-filtering-process-works)    
 <br>  <big style="color: green"> **Contact Us** [&#10149;](#contact-us) </big>     
     

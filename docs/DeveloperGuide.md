@@ -63,7 +63,7 @@ div {
 # **Nuke Developer Guide** <small>v2.1</small>  
 
 By: `CS2113T-T13-2`      Since: `Feb 2020`    
-<small>[Go to Webpage](https://ay1920s2-cs2113t-t13-2.github.io/tp/DeveloperGuide.html)</small>
+<small>[Go to Webpage](https://ay1920s2-cs2113t-t13-2.github.io/tmp/DeveloperGuide.html)</small>
 
 <br>    
 

@@ -40,7 +40,7 @@ div {
 
 </style>
 
-c<br><br><br><br><br><br><br><br><br>
+a<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -1319,8 +1319,6 @@ info
 
 [Back To Top](#table-of-contents)  
 
-<br><br>    
-
 ### **8. Undo**    
 `undo` undoes a <i>change</i> made to the application.      
 
@@ -1352,7 +1350,7 @@ undo
 
 [Back To Top](#table-of-contents)  
 
-<br><br>    
+<br><br><br><br>    
 
 ### **9. Redo**   
 `redo` redoes the change made by an earlier <b>[Undo](#8-undo)</b> command.   
@@ -1383,6 +1381,8 @@ redo
 <br>    
 
 <hr>  
+
+<br><br><br><br><br>
 
 ## **Miscellaneous Information**   
 ### **Help**   

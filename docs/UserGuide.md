@@ -55,9 +55,8 @@ By: <code>CS2113T-T13-2</code> Since: <code>Feb 2020</code> <br>
 <hr>  
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
-<small>(Written together by Hao Yun and Clement)</small><br>
 ## **Table of Contents** 
-<small>(Written together by Hao Yun and Clement)</small><br>
+<small>(Written together by Hao Yun and Clement Cheng)</small><br>
 <big style="color: green">**Introduction** [&#10149;](#introduction)  </big>     
 <br> <big style="color: green"> **Setting Up** [&#10149;](#setting-up)  </big>     
 <br> <big style="color: green"> **General Usage** [&#10149;](#general-usage)  </big>     
@@ -121,7 +120,7 @@ By: <code>CS2113T-T13-2</code> Since: <code>Feb 2020</code> <br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## **Introduction** 
-<small>(Written by Clement)</small><br>
+<small>(Written by Clement Cheng)</small><br>
 <div>  
 This <b>Nuke</b> application is a simple yet powerful task management system that is dedicated to providing <b>NUS students</b> a more efficient way to organise their <i>modules</i> and <i>tasks</i>.<br>  <br>  
 You will be interacting with the application via the command line. With the <b>Nuke</b> application, you will be able to perform various operations to manage your <i>modules</i> and <i>tasks</i> such as adding, deleting and listing your  <i>modules</i> and <i>tasks</i>. You may also add additional properties to your <i>tasks</i> such as <i>files</i>, <i>deadlines</i>, and <i>priorities</i>.<br>  <br>  
@@ -138,7 +137,7 @@ What are you waiting for? Give <b>Nuke</b> a shot, and you will see how amazing 
 <hr>  
 
 ## **Setting Up** 
-<small>(Written by Clement)</small><br>
+<small>(Written by Clement Cheng)</small><br>
 <div>
 <big><big><big style="color: green">&#10102;</big></big></big> Ensure that you have <b>Java 11</b> or higher installed in your computer.
 <br>
@@ -183,7 +182,7 @@ Entering <code>help</code> and pressing <code>Enter</code> will show you helpful
 <br><br><br><br><br><br><br><br>
 
 ## **General Usage**   
-<small>(Written by Clement)</small><br>
+<small>(Written by Clement Cheng)</small><br>
 This section will explain the fundamental structure of the **Nuke** application, and important guidelines to follow to ensure smooth usage of the application.    
 
 ### **Nuke Structure**  
@@ -534,7 +533,7 @@ addg urgent
 <br><br>
 
 ### **2. List**   
-<small>(Written by Clement)</small><br>
+<small>(Written together by Yang Chenglong and Hao Yun)</small><br>
 Lists filtered <i>modules</i>, <i>categories</i>, <i>tasks</i> or <i>files</i>. <br>    
 
 Similar to a Linux shell, <b>Nuke</b> has a generic command word for listing <i>child directories</i>: `ls` <br>  
@@ -610,7 +609,7 @@ lsc
 [Back To Top](#table-of-contents)  
 <br>  
 
-#### **c. List your Tasks** (Accomplished together by Hao Yun)
+#### **c. List your Tasks**
 `lst` will show your filtered <i>task(s)</i>.   
 
 ##### **Format**   
@@ -641,7 +640,7 @@ lst
 <br>  
 
 
-#### **d. List your Tasks Sorted by Deadline or Priority** (Accomplished together by Hao Yun)
+#### **d. List your Tasks Sorted by Deadline or Priority**
 `lsts` shows your <b>undone</b> <i>tasks</i>. By default, the <i>tasks</i> will be sorted by <i>deadline</i>, from the earliest to the latest <i>deadline</i>.  You may also specify in the command to sort your <i>tasks</i> by <i>priority</i> instead, in descending order of <i>priority</i>, by including the `-p` prefix. <br>  
 Also, you can further choose to view the sorted <i>tasks</i> of a specific <i>module</i>. By default, this command will show you the sorted list of <b>all</b> your <i>tasks</i>. You can enter the `module code` to view the sorted list of the <i>tasks</i> in that <i>module</i> instead.   
 
@@ -728,7 +727,7 @@ due over
 [Back To Top](#table-of-contents)     
 <br><br><br>    
 
-#### **f. List your Files** (Accomplished together by Yang Chenglong) 
+#### **f. List your Files** 
 `lsf` will show your filtered <i>files(s)</i>.   
 
 ##### **Format**   
@@ -759,7 +758,7 @@ lsf
 [Back To Top](#table-of-contents)  
 <br><br><br><br><br><br><br><br><br>    
 
-#### **g. List your Task's Tags** (Compelted by Hao Yun) 
+#### **g. List your Task's Tags** 
 `lsg` will show your filtered <i>tag(s)</i>.          
     
 ##### **Format**   
@@ -791,7 +790,8 @@ lsg -m cs2113t -c Assignment -t assignment1
 
 <br><br><br><br><br><br><br><br><br>
 
-### **3. Delete** (Accomplished together by Yang Chenglong)  
+### **3. Delete**
+<small>(Written by Yan Chenglong)</small><br>
 Deletes <i>modules</i>, <i>categories</i>,  <i>tasks</i>, <i>files</i> or <i>tags</i> from their respective lists.     
 You will be prompted to either enter `yes` to confirm the deletion <i>or</i> `no` to abort the deletion after entering the <b>Delete</b> command.     
 <br>    
@@ -957,7 +957,8 @@ delf diag -a
 [Back To Top](#table-of-contents)  
 <br> 
 
-#### **e. Delete Tags from your Task** (Completed by Hao Yun)      
+#### **e. Delete Tags from your Task**
+<small>(Written by Hao Yun)</small><br>
 `delg` deletes a _tag_ from your _task_'s **Tag List**. The **Tag List** contains all your added _tags_ to the _task_( Tag list can be viewed via the List Tag command).   
 
 ##### **Format**       
@@ -997,7 +998,8 @@ delg
 
 <br><br><br><br>   
 
-### **4. Edit** (Accomplished together by Yang Chenglong)   
+### **4. Edit**
+<small>(Written by Yang Chenglong)</small><br>
 
 Edits a <i>module</i>, <i>category</i>,  <i>task</i> or <i>file</i>.<br>    
 

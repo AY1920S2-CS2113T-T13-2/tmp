@@ -40,7 +40,7 @@ div {
 
 </style>
 
-b<br><br><br><br><br><br><br><br><br>
+c<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -336,6 +336,8 @@ For more information on how and if you can <b>not</b> enter  the <i>full directo
 #### **a. Add a Module into your Module List**   
 `addm` adds a _module_ into your **Module List**. The **Module List** contains all your added _modules_ and can be viewed via the <b>[List Module command](#a-list-your-modules)</b>.  
 
+<br><br><br>
+
 ##### **Format**   
 `addm <module code>` 
 
@@ -367,6 +369,8 @@ addm cs2113t
 #### **b. Add a Category into your Category List**  
 `addc` adds a _category_ into your **Category List**. The **Category List** contains all your added _categories_ in the _module_ and can be viewed via the <b>[List Category](#b-list-your-categories)</b> command.  
 
+<br>
+
 ##### **Format**   
 `addc <category name> -m <module code> [ -p <priority> ]`   
 
@@ -389,6 +393,8 @@ addc Project -m cs2113t -p 3
 
 <small><b>Before</b></small>     
 ![image-20200331000048607](images/ug_addc_before.png)     
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <small><b>After</b></small>     
 ![image-20200331000110946](images/ug_addc_after.png)     

@@ -1236,6 +1236,7 @@ done do lab 4 -m cs2106 -c Lab
       
 
 ### **5. Change Directory**    
+<small>(Written by Clement)</small><br>
 `cd` traverses up and down the <b>Directory Tree</b> from your current directory.    
 
 ##### **Format**   
@@ -1273,6 +1274,7 @@ cd ..
 <br><br>  
 
 ### **6. Open File**   
+<small>(Written by Clement)</small><br>
 `open` opens your <i>file(s)</i> of a specified <i>task</i>. You can choose between opening a single <i>file</i> <i>or</i> <b>all</b> your <i>files</i> in the <b>File List</b>.     
 
 ##### **Format**   
@@ -1308,6 +1310,7 @@ open lab_4
 <br><br>  
 
 ### **7. Info**   
+<small>(Written by Clement)</small><br>
 `info` displays information about your current directory. It shows you the current directory's attributes, and a list of its child directories, <i>if any</i>. <br>   
 For example, on the <b>Module</b> directory, the <b>Info</b> command will display the <i>module</i>'s <i>code</i> and <i>title</i>, as well as its <b>Category List</b>.      
 
@@ -1324,6 +1327,7 @@ info
 [Back To Top](#table-of-contents)  
 
 ### **8. Undo**    
+<small>(Written by Clement)</small><br>
 `undo` undoes a <i>change</i> made to the application.      
 
 <div class="alert alert-info">  
@@ -1357,6 +1361,7 @@ undo
 <br><br><br><br><br>    
 
 ### **9. Redo**   
+<small>(Written by Clement)</small><br>
 `redo` redoes the change made by an earlier <b>[Undo](#8-undo)</b> command.   
 
 ##### **Format**    
@@ -1389,6 +1394,7 @@ redo
 <br><br><br><br><br><br><br><br><br>
 
 ## **Miscellaneous Information**   
+<small>(Written by Clement)</small><br>
 ### **Help**   
 In the event that you ever forget the usage of a command, you can look it up within the **Nuke** application itself. All you need to do is to enter the *keyword* `help` to show a command summary of all the available commands in <b>Nuke</b>.       
 
@@ -1504,6 +1510,7 @@ The <i>time specifier</i> is <u>optional</u> and if omitted, is set to `on`.
 <br><br><br><br><br><br><br><br>
 
 ## **Command Summary**   
+<small>(Written by Clement)</small><br>
 A simple summary of the various commands are shown below:  
 
 <div style="text-align: center"><span style="color: green"><small>Table <b>Command Summary</b></small></span></div>  
@@ -1553,6 +1560,7 @@ A simple summary of the various commands are shown below:
 <hr>  
 
 ## **FAQ**  
+<small>(Written by Clement)</small><br>
 
 ### **Can I not enter the Full Path?**  
 <div>  
@@ -1621,7 +1629,8 @@ You can mix both <code>-e</code> and <code>-a</code> to filter exactly the way y
 
 <hr>  
 
-## **Contact Us**   
+## **Contact Us** 
+<small>(Written by Clement)</small><br>
 <div>
 If you have any further inquiries, or if you realised any <b>bugs</b> <i class="fa fa-bug"></i> while running the <B>Nuke</b> application, feel free to contact us at: <br><br>
 <div style="text-align: center">

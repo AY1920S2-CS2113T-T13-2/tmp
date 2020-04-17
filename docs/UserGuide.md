@@ -40,12 +40,11 @@ div {
 
 </style>
 
-<div>
-<h1><b>Nuke User Guide</b>
-</div>
-# **Nuke User Guide** <small>v2.1</small>   
-By: `CS2113T-T13-2` Since: `Feb 2020` <small>    
-[Go to Webpage](https://ay1920s2-cs2113t-t13-2.github.io/tmp/UserGuide.html)</small>     
+<div style="text-align: center">
+<h1><b>Nuke User Guide</b> <small>v2.1</small></h1>
+By: <code>CS2113T-T13-2</code> Since: <code>Feb 2020</code> <br>
+<small><a href="https://ay1920s2-cs2113t-t13-2.github.io/tmp/UserGuide.html">Go to Webpage</a></small>
+</div>   
 
 <br>    
 

@@ -40,8 +40,10 @@ div {
 
 </style>
 
+![Nuke logo](images/ug_nuke.PNG)    
+   
 <div style="text-align: center">
-<h1><b>Nuke User Guide</b> <small>v2.1</small></h1>
+    <h1><big>v2.1</big></h1>
 By: <code>CS2113T-T13-2</code> Since: <code>Feb 2020</code> <br>
 <small><a href="https://ay1920s2-cs2113t-t13-2.github.io/tmp/UserGuide.html">Go to Webpage</a></small>
 </div>   

@@ -40,7 +40,7 @@ div {
 
 </style>
 
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -54,7 +54,7 @@ By: <code>CS2113T-T13-2</code> Since: <code>Feb 2020</code> <br>
 
 <hr>  
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## **Table of Contents** (Accomplished together by Hao Yun)
 <big style="color: green">**Introduction** [&#10149;](#introduction)  </big>     
@@ -95,6 +95,7 @@ By: <code>CS2113T-T13-2</code> Since: <code>Feb 2020</code> <br>
 &nbsp; &nbsp; &nbsp; &nbsp; **7. Info** [&#10149;](#7-info)      
 &nbsp; &nbsp; &nbsp; &nbsp; **8. Undo** [&#10149;](#8-undo)      
 &nbsp; &nbsp; &nbsp; &nbsp; **9. Redo** [&#10149;](#9-redo)      
+<br><br><br>
 <br>  <big style="color: green"> **Miscellaneous Information** [&#10149;](#miscellaneous-information) </big>     
 &nbsp; &nbsp; &nbsp; &nbsp; &#8226; **Help** [&#10149;](#help)    
 &nbsp; &nbsp; &nbsp; &nbsp; &#8226; **Exiting the Nuke Program** [&#10149;](#exiting-the-nuke-program)    
@@ -116,7 +117,7 @@ By: <code>CS2113T-T13-2</code> Since: <code>Feb 2020</code> <br>
 
 <hr>  
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## **Introduction**   
 <div>  
@@ -175,6 +176,8 @@ Entering <code>help</code> and pressing <code>Enter</code> will show you helpful
 
 
 <hr>  
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## **General Usage**   
 This section will explain the fundamental structure of the **Nuke** application, and important guidelines to follow to ensure smooth usage of the application.    

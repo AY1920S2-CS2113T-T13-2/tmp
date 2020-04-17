@@ -40,7 +40,7 @@ div {
 
 </style>
 
-b<br><br><br><br><br><br><br><br><br>
+c<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -1205,6 +1205,8 @@ If the <i>task</i> was <b>already done</b>, and you execute the command, you wil
 - `module code` -- The <i>module code</i> of the <i>module</i> containing the <i>task</i>     
 - `category name` -- The <i>name</i> of the   <i>category</i> containing the <i>task</i>     
   
+<br>  
+  
 ##### **Example Usage**   
 ```  
 done do lab 4 -m cs2106 -c Lab  
@@ -1227,8 +1229,7 @@ done do lab 4 -m cs2106 -c Lab
 ![done command already](images/done_already.png)  
 
 [Back To Top](#table-of-contents)  
-
-<br><br><br><br><br><br><br><br><br><br><br><br>    
+      
 
 ### **5. Change Directory**    
 `cd` traverses up and down the <b>Directory Tree</b> from your current directory.    

@@ -49,7 +49,7 @@ By: `CS2113T-T13-2` Since: `Feb 2020` <small>
 
 <hr>  
 
-## **Table of Contents**   
+## **Table of Contents** (Accomplished together by Hao Yun)
 <big style="color: green">**Introduction** [&#10149;](#introduction)  </big>     
 <br> <big style="color: green"> **Setting Up** [&#10149;](#setting-up)  </big>     
 <br> <big style="color: green"> **General Usage** [&#10149;](#general-usage)  </big>     
@@ -294,7 +294,7 @@ Specifically, each word in the name of your directory has to begin with a alpha-
 <hr>  
 
 ## **Features**  
-### **1. Add**  
+### **1. Add** (Accomplished together by Hao Yun)
 Adds a <i>module</i>, <i>category</i>,  <i>task</i> or <i>file</i> into their respective lists.<br>   
 
 As mentioned previously, **Nuke** follows the structure of a [**Directory Tree**](#nuke-structure) _(i.e. folder sub-folder structure)_. **Nuke** complements the Linux shell command by offering a generic add command word for creating a directory: `mkdir` <br>   
@@ -583,7 +583,7 @@ lsc
 [Back To Top](#table-of-contents)  
 <br>  
 
-#### **c. List your Tasks**     
+#### **c. List your Tasks** (Accomplished together by Hao Yun)
 `lst` will show your filtered <i>task(s)</i>.   
 
 ##### **Format**   
@@ -612,7 +612,7 @@ lst
 <br>  
 
 
-#### **d. List your Tasks Sorted by Deadline or Priority**    
+#### **d. List your Tasks Sorted by Deadline or Priority** (Accomplished together by Hao Yun)
 `lsts` shows your <b>undone</b> <i>tasks</i>. By default, the <i>tasks</i> will be sorted by <i>deadline</i>, from the earliest to the latest <i>deadline</i>.  You may also specify in the command to sort your <i>tasks</i> by <i>priority</i> instead, in descending order of <i>priority</i>, by including the `-p` prefix. <br>  
 Also, you can further choose to view the sorted <i>tasks</i> of a specific <i>module</i>. By default, this command will show you the sorted list of <b>all</b> your <i>tasks</i>. You can enter the `module code` to view the sorted list of the <i>tasks</i> in that <i>module</i> instead.   
 
@@ -730,7 +730,7 @@ lsf
 [Back To Top](#table-of-contents)  
 <br>  
 
-#### **g. List your Task's Tags**   
+#### **g. List your Task's Tags** (Compelted by Hao Yun) 
 `lsg` will show your filtered <i>tag(s)</i>.      
     
 ##### **Format**   
@@ -925,8 +925,8 @@ delf diag -a
 [Back To Top](#table-of-contents)  
 <br>  
 
-#### **e. Delete Tags from your Task** (Accomplished together by Yang Chenglong)      
-`delg` deletes a _tag_ from your _task_'s **Tag List**. The **Tag List** contains all your added _tags_ to the _task_. (and can be viewed via the List Tag command).   
+#### **e. Delete Tags from your Task** (Completed by Hao Yun)      
+`delg` deletes a _tag_ from your _task_'s **Tag List**. The **Tag List** contains all your added _tags_ to the _task_( Tag list can be viewed via the List Tag command).   
 
 ##### **Format**       
 `delg [ <tag keyword> -m <module keyword> -c <category keyword> -t <task keyword> ]`   

@@ -40,7 +40,7 @@ div {
 
 </style>
 
-b<br><br><br><br><br><br><br><br><br>
+c<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -708,7 +708,7 @@ due tdy
 due over  
 ```
 
-<br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
 ##### **Expected Outcome**   
 <small><u><b>With Time Specifier</b></u></small>    
@@ -721,7 +721,7 @@ due over
 ![due command overdue](images/due_over.png)     
 
 [Back To Top](#table-of-contents)     
-<br><br><br><br>    
+<br><br><br>    
 
 #### **f. List your Files** (Accomplished together by Yang Chenglong) 
 `lsf` will show your filtered <i>files(s)</i>.   
@@ -752,7 +752,7 @@ lsf
 ![ug lsf outcome](images/ug_lsf_outcome.png)  
 
 [Back To Top](#table-of-contents)  
-<br>  
+<br><br><br><br><br><br><br>  
 
 #### **g. List your Task's Tags** (Compelted by Hao Yun) 
 `lsg` will show your filtered <i>tag(s)</i>.      
@@ -786,7 +786,7 @@ lsg -m cs2113t -c Assignment -t assignment1
 
 [Back To Top](#table-of-contents)  
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
 ### **3. Delete** (Accomplished together by Yang Chenglong)  
 Deletes <i>modules</i>, <i>categories</i>,  <i>tasks</i>, <i>files</i> or <i>tags</i> from their respective lists.     

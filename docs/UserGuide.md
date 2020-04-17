@@ -699,7 +699,7 @@ due over
 [Back To Top](#table-of-contents)     
 <br>    
 
-#### **f. List your Files**  
+#### **f. List your Files** (Accomplished together by Yang Chenglong) 
 `lsf` will show your filtered <i>files(s)</i>.   
 
 ##### **Format**   
@@ -763,12 +763,12 @@ lsg -m cs2113t -c Assignment -t assignment1
 <br><br>  
 
 
-### **3. Delete**   
+### **3. Delete** (Accomplished together by Yang Chenglong)  
 Deletes <i>modules</i>, <i>categories</i>,  <i>tasks</i>, <i>files</i> or <i>tags</i> from their respective lists.     
 You will be prompted to either enter `yes` to confirm the deletion <i>or</i> `no` to abort the deletion after entering the <b>Delete</b> command.     
 <br>    
 Like the [<b>Add</b>](#1-add) Command, **Nuke** also supports a generic command for deleting a directory: `rm` <br>     
-The table below shows you `rm` does at each level of the Directory.   
+The table below shows you `rm` does at each level of the Directory. 
 
 <div style="text-align: center"><span style="color: green"><small>Table <b>Generic Delete Command</b></small></span></div>  
 
@@ -925,7 +925,7 @@ delf diag -a
 [Back To Top](#table-of-contents)  
 <br>  
 
-#### **e. Delete Tags from your Task**      
+#### **e. Delete Tags from your Task** (Accomplished together by Yang Chenglong)      
 `delg` deletes a _tag_ from your _task_'s **Tag List**. The **Tag List** contains all your added _tags_ to the _task_. (and can be viewed via the List Tag command).   
 
 ##### **Format**       
@@ -963,7 +963,7 @@ delg
 
 <br>   
 
-### **4. Edit**    
+### **4. Edit** (Accomplished together by Yang Chenglong)   
 
 Edits a <i>module</i>, <i>category</i>,  <i>task</i> or <i>file</i>.<br>    
 

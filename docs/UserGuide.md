@@ -40,7 +40,7 @@ div {
 
 </style>
 
-a<br><br><br><br><br><br><br><br><br>
+b<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -627,6 +627,8 @@ lst -c Assignment
 lst  
 ```
 
+<br><br><br><br><br><br>
+
 ##### **Expected Outcome**    
 ![image-20200401012942212](images/ug_lst.png)  
 
@@ -708,6 +710,8 @@ due tdy
 due over  
 ```
 
+<br><br><br><br><br><br><br>
+
 ##### **Expected Outcome**   
 <small><u><b>With Time Specifier</b></u></small>    
 ![due command with time specifier](images/due_timespec.png)      
@@ -719,7 +723,7 @@ due over
 ![due command overdue](images/due_over.png)     
 
 [Back To Top](#table-of-contents)     
-<br>    
+<br><br><br>    
 
 #### **f. List your Files** (Accomplished together by Yang Chenglong) 
 `lsf` will show your filtered <i>files(s)</i>.   

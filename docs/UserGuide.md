@@ -40,7 +40,7 @@ div {
 
 </style>
 
-c<br><br><br><br><br><br><br><br><br>
+a<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -394,7 +394,7 @@ addc Project -m cs2113t -p 3
 <small><b>Before</b></small>     
 ![image-20200331000048607](images/ug_addc_before.png)     
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
 <small><b>After</b></small>     
 ![image-20200331000110946](images/ug_addc_after.png)     
@@ -422,6 +422,8 @@ The <code>priority</code> that you give must be a number between 0 and 20 inclus
 The <code>deadline</code> provided consists of a <i>date</i>, followed by a <i>time</i>. If the <i>date</i> is omitted, <b>Nuke</b> will set it to the current date on your device. If <i>time</i> is omitted, <b>Nuke</b> will set it to be <b>11:59PM</b>. <br>  
 The <code>deadline</code> provided must adhere to the set of accepted <b><a href = '#date-time-formats'>Date Time formats</a></b>. &#128529;  
 </div>  
+
+<br>
 
 ##### **Example Usage**    
 ```  
@@ -488,7 +490,7 @@ addf textbook.pdf -f C:\Users\\Desktop\CS2113T_Textbook.pdf
 
 
 [Back To Top](#table-of-contents)  
-<br>  
+<br><br><br>  
 
 #### **e. Add a Tag to your Task**   
 Adds a _tag_ to your _task_'s **Tag List**. The **Tag List** contains all your added _tags_ to the _task_.   
@@ -523,7 +525,7 @@ addg urgent
 
 [Back To Top](#table-of-contents)  
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>  
+<br><br><br><br><br>
 
 ### **2. List**   
 Lists filtered <i>modules</i>, <i>categories</i>, <i>tasks</i> or <i>files</i>. <br>    

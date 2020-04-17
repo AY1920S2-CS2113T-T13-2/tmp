@@ -40,7 +40,7 @@ div {
 
 </style>
 
-<br><br><br><br><br><br><br><br><br>
+a<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -148,7 +148,7 @@ What are you waiting for? Give <b>Nuke</b> a shot, and you will see how amazing 
 <big><big><big style="color: green">&#10105;</big></big></big> Run <b>Command Prompt</b> and move into the folder where you want placed the <b>Nuke</b> file. <br>
 &nbsp; &nbsp; &nbsp; &nbsp; Enter <code>java -jar &lt;file name&gt;.jar</code> to launch the application, where <code>&lt;file name&gt;</code> is the name of the file.
 <br>
-<big><big><big style="color: green">&#10106;</big></big></big> You will see the following welcome message if the application starts successfully.
+<big><big><big style="color: green">&#10106;</big></big></big> You will see the welcome message on the next page if the application starts successfully.
 </div>
 
 ![welcome message](images/ug_welcome_message.PNG)
@@ -169,6 +169,7 @@ Entering <code>help</code> and pressing <code>Enter</code> will show you helpful
 </ul>
 <big><big><big style="color: green">&#10109;</big></big></big> Refer to the <a href="#features">Features</a> section for more information about each command.
 </div>
+<br>
 
 [Back To Top](#table-of-contents)  
 
@@ -177,7 +178,7 @@ Entering <code>help</code> and pressing <code>Enter</code> will show you helpful
 
 <hr>  
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## **General Usage**   
 This section will explain the fundamental structure of the **Nuke** application, and important guidelines to follow to ensure smooth usage of the application.    
@@ -297,6 +298,8 @@ Specifically, each word in the name of your directory has to begin with a alpha-
 
 
 <hr>  
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## **Features**  
 ### **1. Add** (Accomplished together by Hao Yun)

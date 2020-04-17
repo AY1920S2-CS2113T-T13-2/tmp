@@ -40,7 +40,7 @@ div {
 
 </style>
 
-c<br><br><br><br><br><br><br><br><br>
+a<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -977,7 +977,7 @@ delg urgent
 delg  
 ```
 
-<br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
 ##### **Expected Outcome**   
 ![image-20200401020857605](images/ug_delg_outcome.png)  
@@ -990,7 +990,7 @@ delg
 
 [Back To Top](#table-of-contents)  
 
-<br><br>   
+<br><br><br><br>   
 
 ### **4. Edit** (Accomplished together by Yang Chenglong)   
 
@@ -1046,7 +1046,7 @@ edm cs2102 -m cs2101
 ![edm command invalid module code](images/edm_invalid.png)     
 
 [Back To Top](#table-of-contents)  
-<br>  
+<br><br><br><br><br><br>  
 
 #### **b. Edit a Category in your Category List**      
 `edc` edits a <i>category</i> in your <b>Category List</b>. The <b>Category List</b> contains all your added <i>categories</i> of a <i>module</i> and can be viewed via the [<b>List Category</b>](#b-list-your-categories) command.  
@@ -1096,7 +1096,7 @@ edc Lab -m cs2113t -c Project -p 8
 ![edc command nothing to edit](images/edc_empty.png)  
 
 [Back To Top](#table-of-contents)  
-<br>   
+<br><br><br><br><br><br><br><br><br>   
 
 #### **c. Edit a Task in your Task List**     
 `edt` edits a <i>task</i> in your <b>Task List</b>. The <b>Task List</b> contains all your added <i>tasks</i> of a <i>category</i> and can be viewed via the [<b>List Task</b>](#c-list-your-tasks) command.   
@@ -1149,7 +1149,7 @@ edt tp -d sat 2359 -p 20
 ![edt command nothing to edit](images/edt_empty.png)  
 
 [Back To Top](#table-of-contents)  
-<br>  
+<br><br><br>  
 
 #### **d. Edit a File in your File List**   
 `edf` edits a <i>file</i> in your <b>File List</b>. The <b>File List</b> contains all your added <i>files</i> of a <i>task</i> and can be viewed via the [<b>List File</b>](#f-list-your-files) command.   
@@ -1228,7 +1228,7 @@ done do lab 4 -m cs2106 -c Lab
 
 [Back To Top](#table-of-contents)  
 
-<br><br>    
+<br><br><br><br><br><br><br><br><br><br><br><br>    
 
 ### **5. Change Directory**    
 `cd` traverses up and down the <b>Directory Tree</b> from your current directory.    

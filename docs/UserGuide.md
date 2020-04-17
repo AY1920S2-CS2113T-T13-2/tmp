@@ -43,15 +43,16 @@ div {
 ![Nuke logo](images/ug_nuke.PNG)    
    
 <div style="text-align: center">
-<h1><b>User Guide <small>v2.1</small></h1>
+<h1><b>User Guide</b> <small>v2.1</small></h1>
 By: <code>CS2113T-T13-2</code> Since: <code>Feb 2020</code> <br>
 <small><a href="https://ay1920s2-cs2113t-t13-2.github.io/tmp/UserGuide.html">Go to Webpage</a></small>
 </div>   
 
 <br>    
 
-
 <hr>  
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## **Table of Contents** (Accomplished together by Hao Yun)
 <big style="color: green">**Introduction** [&#10149;](#introduction)  </big>     

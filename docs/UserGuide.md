@@ -40,7 +40,7 @@ div {
 
 </style>
 
-c<br><br><br><br><br><br><br><br><br>
+a<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -671,9 +671,7 @@ lsts cs2113 -p
 <br>    
 <small><u><b>Sort with Specified Module</b></u></small>     
 ![lsts command sort by priority](images/lsts_priority.png)      
-
-[Back To Top](#table-of-contents)   
-<br>  
+[Back To Top](#table-of-contents)     
 
 #### **e. List your Tasks at Specified Time Period**    
 `due` filters through <b>all</b> your tasks according to a specified <i>time period</i>. <br>  
@@ -710,7 +708,7 @@ due tdy
 due over  
 ```
 
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
 
 ##### **Expected Outcome**   
 <small><u><b>With Time Specifier</b></u></small>    

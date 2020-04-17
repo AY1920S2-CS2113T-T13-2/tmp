@@ -40,7 +40,7 @@ div {
 
 </style>
 
-b<br><br><br><br><br><br><br><br><br>
+d<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -462,7 +462,7 @@ The <code>file path</code> provided must exist. Otherwise, an error message will
 Also, the <code>file name</code> <b>cannot</b> exceed <b>30</b> characters. &#128566;  
 </div>  
 
-<br><br><br>
+<br>
 
 <div class="alert alert-info">  
 <i class="fa fa-info"></i> <b>Info</b> <br>   
@@ -492,7 +492,7 @@ addf textbook.pdf -f C:\Users\\Desktop\CS2113T_Textbook.pdf
 
 
 [Back To Top](#table-of-contents)  
-<br><br><br>  
+<br><br><br><br><br>  
 
 #### **e. Add a Tag to your Task**   
 Adds a _tag_ to your _task_'s **Tag List**. The **Tag List** contains all your added _tags_ to the _task_.   
@@ -527,7 +527,7 @@ addg urgent
 
 [Back To Top](#table-of-contents)  
 
-<br><br><br><br><br><br><br><br>
+<br><br>
 
 ### **2. List**   
 Lists filtered <i>modules</i>, <i>categories</i>, <i>tasks</i> or <i>files</i>. <br>    

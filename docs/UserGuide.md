@@ -40,7 +40,7 @@ div {
 
 </style>
 
-b<br><br><br><br><br><br><br><br><br>
+c<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -534,6 +534,7 @@ addg urgent
 <br><br>
 
 ### **2. List**   
+<small>(Written by Clement)</small><br>
 Lists filtered <i>modules</i>, <i>categories</i>, <i>tasks</i> or <i>files</i>. <br>    
 
 Similar to a Linux shell, <b>Nuke</b> has a generic command word for listing <i>child directories</i>: `ls` <br>  
@@ -567,7 +568,7 @@ For more information on how filtering is done, see <a href="#how-does-the-filter
 `lsm [ <module keyword> -e -a ]`     
 - `module keyword` -- The <i>keyword</i> to filter the <i>modules'</i> <i>code</i> by        
   
-<br>
+
 <div class="alert alert-info">  
 <i class="fa fa-info"></i> <b>Info</b> <br>   
 If the <code>module keyword</code> is provided, <code>lsm</code> will list out all <i>modules</i> with <i>module code</i> containing the  <code>module keyword</code>. Otherwise, it will show <b>all</b> your <i>modules</i>.  
@@ -1425,8 +1426,7 @@ Any *date time* data that you provide has to adhere to certain formats pre-defin
 Instances when you may need to enter a *date time* will be when adding a _deadline_ to your _tasks_, or when specifying the <i>date</i> in the <b>[Due](#e-list-your-tasks-at-specified-time-period)</b> command.  
       
 Here are the following *date time* formats:    
-  
-<br><br><br>  
+    
   
 #### **Date Formats**   
 There are **two** types *date* formats allowed.    

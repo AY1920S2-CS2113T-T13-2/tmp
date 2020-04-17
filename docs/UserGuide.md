@@ -40,7 +40,7 @@ div {
 
 </style>
 
-a<br><br><br><br><br><br><br><br><br>
+b<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -198,7 +198,7 @@ This section will explain the fundamental structure of the **Nuke** application,
 
 <br>  
 
-Below is an illustration of a possible <b>Directory Tree</b> structure:      
+The following page shows an illustration of a possible <b>Directory Tree</b> structure:      
 <br>  
 ![Directory Tree Image](images/Tree.png)    
 <span style="color: green"><small><i>Figure <b>Sample Directory Tree</b></i></small></span>  
@@ -299,7 +299,7 @@ Specifically, each word in the name of your directory has to begin with a alpha-
 
 <hr>  
 
-<br><br><br>
+<br><br><br><br><br><br>
 
 ## **Features**  
 ### **1. Add** (Accomplished together by Hao Yun)
@@ -373,7 +373,8 @@ addm cs2113t
 - `category name` -- The _name_ of the   _category_  
 - `module code` -- The _module code_ of the _module_ to contain the _category_ to be added  
 - `priority` -- An integer indicating the  _priority_ of the _category_ <i>(optional)</i>    
-<div clas s="alert alert-warning">  
+
+<div class="alert alert-warning">  
 <i class="fa fa-exclamation"></i> <b>Note</b> <br>   
 The <code>category name</code> <b>cannot </b> exceed <b>15</b> characters. &#128534; <br>  The <code>priority</code> that you give must be a number between 0 and 20 inclusive. The bigger the number, the more important the category. If the <code>priority</code> is not given, then it will be set to <b>0</b>.    
 </div>  

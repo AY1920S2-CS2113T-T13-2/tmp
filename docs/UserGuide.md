@@ -40,7 +40,7 @@ div {
 
 </style>
 
-d<br><br><br><br><br><br><br><br><br>
+a<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -752,7 +752,7 @@ lsf
 ![ug lsf outcome](images/ug_lsf_outcome.png)  
 
 [Back To Top](#table-of-contents)  
-<br><br><br><br><br><br><br><br>    
+<br><br><br><br><br><br><br><br><br>    
 
 #### **g. List your Task's Tags** (Compelted by Hao Yun) 
 `lsg` will show your filtered <i>tag(s)</i>.          
@@ -899,7 +899,7 @@ delc lec -a
 - `module keyword` -- The <i>keyword</i> to filter the <i>modules'</i> <i>code</i> by       
 - `category keyword` -- The <i>keyword</i> to filter the <i>categories'</i> <i>name</i> by     
 
-<br><br>
+<br><br><br>
   
 ##### **Example Usage**    
 ```  
@@ -922,7 +922,7 @@ delt urgent assignment
 ![image-20200401021025877](images/ug_delt_after.png)  
 
 [Back To Top](#table-of-contents)  
-<br><br><br><br><br><br><br>  
+<br><br><br><br><br><br><br><br><br>  
 
 #### **d. Delete Files from your File Lists**
 `delf` deletes a _file_ from your _task_'s **File List**. The **File List** contains all your added _files_ and can be viewed via the [List File](#f-list-your-files) command.  

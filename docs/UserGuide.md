@@ -132,9 +132,11 @@ What are you waiting for? Give <b>Nuke</b> a shot, and you will see how amazing 
 <br>
 <big><big><big style="color=green">&#10103;</big></big></big> Download the latest <b>Nuke</b> jar file from <a href="https://github.com/AY1920S2-CS2113T-T13-2/tp/releases">here</a>.
 <br>
-<big><big><big style="color=green">&#10104;</big></big></big> Copy the file to the folder you want to use as the home folder for your <b>Nuke</b> application. You may rename the file if you want.
+<big><big><big style="color=green">&#10104;</big></big></big> Copy the file to the folder you want to use as the home folder for your <b>Nuke</b> application. <br>
+&nbsp; &nbsp; &nbsp; &nbsp; You may rename the file if you want.
 <br>
-<big><big><big style="color=green">&#10105;</big></big></big> Run <b>Command Prompt</b> and move into the folder where you want placed the <b>Nuke</b> file. Enter <code>java -jar &lt;file name&gt;.jar</code> to launch the application, where <code>&lt;file name&gt;</code> is the name of the file.
+<big><big><big style="color=green">&#10105;</big></big></big> Run <b>Command Prompt</b> and move into the folder where you want placed the <b>Nuke</b> file. <br>
+&nbsp; &nbsp; &nbsp; &nbsp; Enter <code>java -jar &lt;file name&gt;.jar</code> to launch the application, where <code>&lt;file name&gt;</code> is the name of the file.
 <br>
 <big><big><big style="color=green">&#10106;</big></big></big> You will see the following welcome message if the application starts successfully.
 </div>

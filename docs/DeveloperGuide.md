@@ -77,14 +77,14 @@ By: `CS2113T-T13-2`      Since: `Feb 2020`
 &nbsp; &nbsp; &nbsp; &nbsp; &#8226; **Scope** [&#10149;](#scope)   
 &nbsp; &nbsp; &nbsp; &nbsp; &#8226; **Design Goals** [&#10149;](#design-goals)    
 <br>   
-<big style="color: green"> **Setting Up** [&#10149;](#setting-up)  </big>  
+<big style="color: green"> **Setting Up** [&#10149;](#setting-up)  </big>     
+<br>  
+<big style="color: green">  **Design** [&#10149;](#design)  </big>  
 &nbsp; &nbsp; &nbsp; &nbsp; **1. Architecture** [&#10149;](#1-architecture)    
 &nbsp; &nbsp; &nbsp; &nbsp; **2. UI Component** [&#10149;](#2-ui-component)    
 &nbsp; &nbsp; &nbsp; &nbsp; **3. Logic Component** [&#10149;](#3-logic-component)    
 &nbsp; &nbsp; &nbsp; &nbsp; **4. Model Component** [&#10149;](#4-model-component)    
-&nbsp; &nbsp; &nbsp; &nbsp; **5. Storage Component** [&#10149;](#5-storage-component)   
-<br>  
-<big style="color: green">  **Design** [&#10149;](#design)  </big>  
+&nbsp; &nbsp; &nbsp; &nbsp; **5. Storage Component** [&#10149;](#5-storage-component)
 <br>    
 <big style="color: green">  **Structure Implementation** [&#10149;](#structure-implementation)  </big>   
 &nbsp; &nbsp; &nbsp; &nbsp; **1. Directory** [&#10149;](#1-directory)    

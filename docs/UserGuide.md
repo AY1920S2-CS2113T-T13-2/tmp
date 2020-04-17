@@ -145,13 +145,12 @@ What are you waiting for? Give <b>Nuke</b> a shot, and you will see how amazing 
 
 <br>
 <div>
-<big><big><big style="color=green">&#10107;</big></big></big> Enter your command and press <kbd>Enter</kbd> to execute it. 
+<big><big><big style="color=green">&#10107;</big></big></big> Enter your command and press <code>Enter</code> to execute it. 
 <br>
 <div class="alert alert-info">  
 <i class="fa fa-info"></i> <b>Tip</b> <br>   
-Entering <code>help</code> and pressing <kbd>Enter</kbd> will show you helpful guides to all of <b>Nuke</b>'s commands.    
+Entering <code>help</code> and pressing <code>Enter</code> will show you helpful guides to all of <b>Nuke</b>'s commands.    
 </div>  
-<br>
 <big><big><big style="color=green">&#10108;</big></big></big> Some example commands you may want to try:<br>
 <ul>
 <li><code>addm cs2113t</code>: Adds a <i>module</i> with <i>module code</i> <b>CS2113T</b> into <b>Nuke</b></li>
@@ -159,7 +158,6 @@ Entering <code>help</code> and pressing <kbd>Enter</kbd> will show you helpful g
 <li><code>lst</code>: Lists your added <i>tasks</i></li>
 <li><code>bye</code>: Exits the <b>Nuke</b> application</li>
 </ul>
-<br>
 <big><big><big style="color=green">&#10109;</big></big></big> Refer to the <a href="#features">Features</a> section for more information about each command.
 </div>
 

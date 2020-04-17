@@ -40,7 +40,7 @@ div {
 
 </style>
 
-a<br><br><br><br><br><br><br><br><br>
+b<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -1350,7 +1350,7 @@ undo
 
 [Back To Top](#table-of-contents)  
 
-<br><br><br><br>    
+<br><br><br><br><br>    
 
 ### **9. Redo**   
 `redo` redoes the change made by an earlier <b>[Undo](#8-undo)</b> command.   
@@ -1382,7 +1382,7 @@ redo
 
 <hr>  
 
-<br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 ## **Miscellaneous Information**   
 ### **Help**   
@@ -1415,7 +1415,9 @@ Any *date time* data that you provide has to adhere to certain formats pre-defin
 Instances when you may need to enter a *date time* will be when adding a _deadline_ to your _tasks_, or when specifying the <i>date</i> in the <b>[Due](#e-list-your-tasks-at-specified-time-period)</b> command.  
       
 Here are the following *date time* formats:    
-      
+  
+<br>  
+  
 #### **Date Formats**   
 There are **two** types *date* formats allowed.    
 

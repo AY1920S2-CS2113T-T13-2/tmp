@@ -40,7 +40,7 @@ div {
 
 </style>
 
-c<br><br><br><br><br><br><br><br><br>
+d<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -752,12 +752,10 @@ lsf
 ![ug lsf outcome](images/ug_lsf_outcome.png)  
 
 [Back To Top](#table-of-contents)  
-<br><br><br><br><br><br><br>  
+<br><br><br><br><br><br><br><br>    
 
 #### **g. List your Task's Tags** (Compelted by Hao Yun) 
-`lsg` will show your filtered <i>tag(s)</i>.      
-    
-<br><br><br>    
+`lsg` will show your filtered <i>tag(s)</i>.          
     
 ##### **Format**   
 `lsg [ <tag keyword> -m <module keyword> -c <category keyword> -t <task keyword> -e -a ]`  
@@ -786,7 +784,7 @@ lsg -m cs2113t -c Assignment -t assignment1
 
 [Back To Top](#table-of-contents)  
 
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 
 ### **3. Delete** (Accomplished together by Yang Chenglong)  
 Deletes <i>modules</i>, <i>categories</i>,  <i>tasks</i>, <i>files</i> or <i>tags</i> from their respective lists.     
@@ -848,8 +846,7 @@ delm cs
 
 <small><b>After</b></small>     
 ![image-20200401015411123](images/ug_delm_after.png)  
-
-<br>    
+ 
 <small><u><b>Multiple Deletion</b></u></small>     
 
 ![delm command multiple delete](images/delm_many.png)     
@@ -865,7 +862,9 @@ delm cs
 
 - `category keyword` -- The <i>keyword</i> to filter the <i>categories'</i> <i>name</i> by     
 - `module keyword` -- The <i>keyword</i> to filter the <i>modules'</i> <i>code</i> by   
-  
+ 
+<br> 
+ 
 ##### **Example Usage**    
 ```  
 delc Tutorial  
@@ -899,7 +898,8 @@ delc lec -a
 - `task keyword` -- The <i>keyword</i> to filter the <i>tasks'</i> <i>description</i> by        
 - `module keyword` -- The <i>keyword</i> to filter the <i>modules'</i> <i>code</i> by       
 - `category keyword` -- The <i>keyword</i> to filter the <i>categories'</i> <i>name</i> by     
-  
+
+<br><br>
   
 ##### **Example Usage**    
 ```  
@@ -922,7 +922,7 @@ delt urgent assignment
 ![image-20200401021025877](images/ug_delt_after.png)  
 
 [Back To Top](#table-of-contents)  
-<br>  
+<br><br><br><br><br><br><br>  
 
 #### **d. Delete Files from your File Lists**
 `delf` deletes a _file_ from your _task_'s **File List**. The **File List** contains all your added _files_ and can be viewed via the [List File](#f-list-your-files) command.  

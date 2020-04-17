@@ -40,7 +40,7 @@ div {
 
 </style>
 
-b<br><br><br><br><br><br><br><br><br>
+c<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -950,7 +950,7 @@ delf diag -a
 ![delf command no match](images/delf_none.png)      
 
 [Back To Top](#table-of-contents)  
-<br><br><br><br><br>  
+<br> 
 
 #### **e. Delete Tags from your Task** (Completed by Hao Yun)      
 `delg` deletes a _tag_ from your _task_'s **Tag List**. The **Tag List** contains all your added _tags_ to the _task_( Tag list can be viewed via the List Tag command).   
@@ -977,7 +977,7 @@ delg urgent
 delg  
 ```
 
-<br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
 
 ##### **Expected Outcome**   
 ![image-20200401020857605](images/ug_delg_outcome.png)  
@@ -990,7 +990,7 @@ delg
 
 [Back To Top](#table-of-contents)  
 
-<br>   
+<br><br>   
 
 ### **4. Edit** (Accomplished together by Yang Chenglong)   
 

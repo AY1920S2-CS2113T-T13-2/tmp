@@ -178,7 +178,7 @@ Entering <code>help</code> and pressing <code>Enter</code> will show you helpful
 
 <hr>  
 
-<br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 ## **General Usage**   
 This section will explain the fundamental structure of the **Nuke** application, and important guidelines to follow to ensure smooth usage of the application.    
@@ -242,7 +242,7 @@ To learn how to traverse the various directories, see the <b><a href="#5-change-
 </div>     
 [Back To Top](#table-of-contents)  
 
-<br>  
+<br><br><br><br><br><br><br><br><br><br>  
 
 ### **Command Format**   
 In this <b>User Guide</b>, the format for each feature _(command)_ will usually be of this form:    
@@ -265,7 +265,7 @@ There are times when you may have to include at least one from a set of **attrib
 
 [Back To Top](#table-of-contents)  
 
-<br>  
+<br><br><br><br><br><br><br><br><br><br>  
 
 ### **Command Prefixes**  
 On many occasions, you may be required to enter more information to describe the commands you give to **Nuke**. For example, when adding a _task_, you may need to specify the _module_ and _category_ to add the _task_ into. You may also want to include additional attributes such as the _deadline_ and _priority_. All these information can only be recognised by **Nuke** if they are preceded by the correct **prefix**.<br>      

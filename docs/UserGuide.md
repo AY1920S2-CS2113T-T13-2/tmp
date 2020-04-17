@@ -141,7 +141,7 @@ What are you waiting for? Give <b>Nuke</b> a shot, and you will see how amazing 
 <big><big><big style="color=green">&#10106;</big></big></big> You will see the following welcome message if the application starts successfully.
 </div>
 
-![welcome message](images/ug_welcome_message)
+![welcome message](images/ug_welcome_message.PNG)
 
 <br>
 <div>

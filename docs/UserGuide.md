@@ -40,7 +40,7 @@ div {
 
 </style>
 
-d<br><br><br><br><br><br><br><br><br>
+a<br><br><br><br><br><br><br><br><br>
 
 ![Nuke logo](images/ug_nuke.PNG)    
    
@@ -55,8 +55,8 @@ By: <code>CS2113T-T13-2</code> Since: <code>Feb 2020</code> <br>
 <hr>  
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-## **Table of Contents** (Accomplished together by Hao Yun)
+<small>(Written together by Hao Yun and Clement)</small><br>
+## **Table of Contents** 
 <big style="color: green">**Introduction** [&#10149;](#introduction)  </big>     
 <br> <big style="color: green"> **Setting Up** [&#10149;](#setting-up)  </big>     
 <br> <big style="color: green"> **General Usage** [&#10149;](#general-usage)  </big>     
@@ -95,7 +95,7 @@ By: <code>CS2113T-T13-2</code> Since: <code>Feb 2020</code> <br>
 &nbsp; &nbsp; &nbsp; &nbsp; **7. Info** [&#10149;](#7-info)      
 &nbsp; &nbsp; &nbsp; &nbsp; **8. Undo** [&#10149;](#8-undo)      
 &nbsp; &nbsp; &nbsp; &nbsp; **9. Redo** [&#10149;](#9-redo)      
-<br><br><br>
+<br><br>
 <br>  <big style="color: green"> **Miscellaneous Information** [&#10149;](#miscellaneous-information) </big>     
 &nbsp; &nbsp; &nbsp; &nbsp; &#8226; **Help** [&#10149;](#help)    
 &nbsp; &nbsp; &nbsp; &nbsp; &#8226; **Exiting the Nuke Program** [&#10149;](#exiting-the-nuke-program)    
@@ -119,7 +119,8 @@ By: <code>CS2113T-T13-2</code> Since: <code>Feb 2020</code> <br>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-## **Introduction**   
+<small>(Written by Clement)</small><br>
+## **Introduction** 
 <div>  
 This <b>Nuke</b> application is a simple yet powerful task management system that is dedicated to providing <b>NUS students</b> a more efficient way to organise their <i>modules</i> and <i>tasks</i>.<br>  <br>  
 You will be interacting with the application via the command line. With the <b>Nuke</b> application, you will be able to perform various operations to manage your <i>modules</i> and <i>tasks</i> such as adding, deleting and listing your  <i>modules</i> and <i>tasks</i>. You may also add additional properties to your <i>tasks</i> such as <i>files</i>, <i>deadlines</i>, and <i>priorities</i>.<br>  <br>  
@@ -135,7 +136,8 @@ What are you waiting for? Give <b>Nuke</b> a shot, and you will see how amazing 
 
 <hr>  
 
-## **Setting Up**  
+<small>(Written by Clement)</small><br>
+## **Setting Up** 
 
 <div>
 <big><big><big style="color: green">&#10102;</big></big></big> Ensure that you have <b>Java 11</b> or higher installed in your computer.
@@ -180,6 +182,7 @@ Entering <code>help</code> and pressing <code>Enter</code> will show you helpful
 
 <br><br><br><br><br><br><br><br>
 
+<small>(Written by Clement)</small><br>
 ## **General Usage**   
 This section will explain the fundamental structure of the **Nuke** application, and important guidelines to follow to ensure smooth usage of the application.    
 
@@ -302,7 +305,7 @@ Specifically, each word in the name of your directory has to begin with a alpha-
 <br><br><br><br><br><br>
 
 ## **Features**  
-### **1. Add** (Accomplished together by Hao Yun)
+### **1. Add** (Written by Hao Yun)
 Adds a <i>module</i>, <i>category</i>,  <i>task</i> or <i>file</i> into their respective lists.<br>   
 
 As mentioned previously, **Nuke** follows the structure of a [**Directory Tree**](#nuke-structure) _(i.e. folder sub-folder structure)_. **Nuke** complements the Linux shell command by offering a generic add command word for creating a directory: `mkdir` <br>   
